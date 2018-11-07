@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.Master.cs" Inherits="WebApplication3.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Kırtasiye Adası</title>
+    <link href="style.css" rel="stylesheet" />
+  
+                
+</head>
+<body style="background-color:white;">
+    <form id="form2" runat="server">
+    
+
+
+
+		<div class="page" width: 100%;margin:auto;>
+		<div style="margin:auto;width:241px;margin-top:10px;"><img src="image/logo.png"/></div>
+		<div class="menu">
+		<div class="scrollmenu">
+			<ul class="scroll">
+				<li><a href="index.aspx?">ANASAYFA</a></li>
+				<li><a href="#">ÜRÜNLER</a>
+                    <ul  class="downscroll">
+                       <a href="cizimkalemleri.aspx"> <li>Çizim Kalemleri </li></a>
+                       <a href="dolmakalem.aspx"> <li>Dolma Kalemler </li></a>
+                       <a href="#"> <li>Fosforlu Kalemler </li></a>
+                      
+                        
+                    </ul>
+
+				</li>
+				<li><a href="#">HAKKIMIZDA</a></li>
+				<li><a href="#">İLETİSİM</a></li>
+
+			</ul>
+			</div>
+		</div>
+		
+		
+		
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+            </asp:ContentPlaceHolder>
+		
+		</div>
+		<div class="footer" style="margin-top:20%;height: 130px;width: 100%;background-color: #1c1c1c;"></div>
+		
+		
+    </form>
+</body>
+</html>
