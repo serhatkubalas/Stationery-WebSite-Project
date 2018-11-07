@@ -1,0 +1,329 @@
+﻿*{
+	position:relative;
+	margin:0px 0 0 0;
+	padding: 0;
+}
+body{
+    background-color:#fafafa;
+}
+.menu{
+	margin:auto;
+	width: 1000px;
+	height: 50px;
+	background-color: #ff6a00;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    
+
+}
+
+	
+
+.scroll li{
+	
+	
+	float: left;
+	margin-right: 60px;
+	list-style-type: none;
+	line-height: 50px; 
+	height: 50px;
+
+	
+}
+
+.scrollmenu a{
+	
+	display: block;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.footer{
+   margin-top:10%;
+   height: 160px;
+   width: 100%;
+   background-color: #1c1c1c;
+}
+.scrollmenu{
+    
+	padding-left: 150px;
+	margin: auto;
+	max-width:800px;
+	height: 50px;
+    
+}
+div.banner img{
+    float:left;
+}
+
+
+ul li:hover{
+	background-color: #282828;
+	transition: 0.6s;
+}
+/*********************** SLIDER *********************************/
+.slider{
+    padding-top:20px;
+	position: relative;
+	width: 999px;
+	height: 350px;
+	margin:  auto;
+	overflow: hidden;
+}
+.slide{
+	width: 999px;
+	height: 350px;
+	position: relative;
+	float: left;
+}
+.slide img{
+	width: 999px;
+	height: 350px;
+	transition: 1s;
+}
+.btnIleri{
+
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 160px;
+	left: 945px;
+	opacity: 0.2;
+	transition:1s;
+
+	
+}
+.btnIleri img{
+	padding-left: 2px;
+	width: 50px;
+	height: 50px;
+	
+	
+	
+}
+.btnGeri{
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 160px;
+	left: -10px;
+	transition:1s;
+}
+.btnGeri img{
+	width: 50px;
+	height: 50px;
+	margin-left: 14px;
+	opacity: 0.2;
+
+}
+
+.scroll li .downscroll li{
+	background-color: #444444;
+	z-index: 1;
+    width: 130px;
+	text-align: left;
+    transition-duration:0.5s;
+}
+.downscroll li:hover{
+    padding-left:20px;
+    transition-duration:0.5s;
+}
+.downscroll a li{
+    padding-left:5px;
+    font-size:14px;
+    transition-duration:0.5s;
+}
+.downscroll{
+	display: none;
+    transition-duration:1s;
+}
+.scroll li:hover .downscroll{
+	display: block;
+    transition-duration:0.5s;
+}
+
+
+.btnGeri:hover .sol{
+	opacity: 1;
+	transition: 0.7s;
+}
+
+.btnIleri:hover{
+	transition-duration: 0.6s;
+	opacity: 1;
+	
+	
+}
+.btnIleri:hover .sag{
+	opacity: 1;
+	transition: 0.7s;
+}
+
+
+.esya{
+    margin:auto;
+    margin-top:23px;
+    width:125px;
+    height:200px;
+}
+.esya img{
+    
+    transition: 0.7s;
+	width: 128px;
+	height: 156px;
+}
+.vitrin{
+    
+	margin:25px auto;
+	width: 1100px;
+	height: 1000px;
+}
+.bigBanner{
+    margin:25px auto;
+    width:1120px;
+    height:1350px;
+}
+.banner-vitrin{
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+.banner-vitrin img{
+    width:550px;
+    height:280px;
+    transition: .45s ease-in-out;
+}
+.banner-vitrin img:hover{
+    transition: .45s ease-in-out;
+    transform: scale(1.02); 
+    box-shadow: 0px 6px 7px 1px #bdbdbd ;
+   
+}
+.vitrin-icerik{
+    
+    float:left;
+    
+    height: 214px;
+    width:246px;
+    
+}
+
+.border{
+
+    transition: 0.7s;
+    margin:auto 1.84px 25px auto;
+    margin-right:25px;
+    float:left;
+    height:345px;
+    width:246px;
+    background-color:white;
+    border: 1px solid #e3e2e2;
+
+}
+
+.vitrin-icerik a{
+    display:block;
+    width:250px;
+    color:#151211;
+    font-size:16px;
+    font-family:ProximaNova,Arial,sans-serif;
+    text-decoration:none;
+}
+.border:hover{
+    transition: box-shadow .45s ease-in-out;
+    
+    box-shadow: 0 6px 0 0 #ff6a00 ;
+    
+}
+.border:hover .esya img{
+    transition: 0.9s;
+	transform: scale(1.1); 
+}
+.detail{
+    width:900px;
+    margin:auto;
+}
+.itemdetails{
+    width:900px;
+    height:auto;
+}
+.itemdetailsContent{
+    width:450px;
+    height:330px;
+    float:left;
+}
+.itemdetailsContent img{
+    width:400px;
+    height:300px;
+}
+.itemexplanation{
+    width:900px;
+    height:auto;
+    float:left;
+}
+.basket{
+    border:none;
+    outline:none;
+    background: #ff6a00;
+    font-size: 22px;
+    color: #080808;
+    left:28px;
+    top:50px;
+    border-radius: 5px;
+    
+    padding: 12px 34px 12px 34px;
+    font-family: Impact;
+}
+.basket:hover{
+    transition-duration:0.7s;
+    color:white;
+    background-color:black;
+}
+
+.tab {
+   margin:auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width:1000px;
+
+}
+
+
+
+.tab div {
+    width:100%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+.tabicerik {
+    margin:auto;
+    width:1000px;
+    display: block;
+    padding: 22px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+}
+

@@ -1,0 +1,12 @@
+c:\users\shylq\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+c:\users\shylq\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll
+c:\users\shylq\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+c:\users\shylq\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\obj\Debug\kırtasiye adası.csprojResolveAssemblyReference.cache
+c:\users\shylq\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+c:\users\shylq\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\Shylq\Documents\visual studio 2013\Projects\kırtasiye\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\Shylq\Documents\visual studio 2013\Projects\kırtasiye\WebApplication3\bin\WebApplication3.dll
+C:\Users\Shylq\Documents\visual studio 2013\Projects\kırtasiye\WebApplication3\bin\WebApplication3.pdb
+C:\Users\Shylq\Documents\visual studio 2013\Projects\kırtasiye\WebApplication3\obj\Debug\kırtasiye adası.csprojResolveAssemblyReference.cache
+C:\Users\Shylq\Documents\visual studio 2013\Projects\kırtasiye\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Users\Shylq\Documents\visual studio 2013\Projects\kırtasiye\WebApplication3\obj\Debug\WebApplication3.pdb
